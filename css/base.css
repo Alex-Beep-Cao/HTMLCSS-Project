@@ -1,0 +1,78 @@
+/* 清楚元素默认内外边距 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 让所有斜体不倾斜 */
+
+em,
+i {
+    font-style: normal;
+}
+
+
+/* 去掉li前面的小点 */
+
+li {
+    list-style: none;
+}
+
+
+/* 图片没有边框去掉图片底的空白缝隙 */
+
+img {
+    /* ie6 */
+    border: 0;
+    vertical-align: middle;
+}
+
+
+/* 让button的按钮变成小手 */
+
+button {
+    cursor: pointer;
+}
+
+
+/* 取消连接下划线 */
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e33333;
+}
+
+.hide,
+.none {
+    display: none;
+}
+
+input {
+    /* 去除搜索框 外边框 当你点击的时候 */
+    outline: none;
+}
+
+
+/* 清除浮动 */
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: '.';
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+* {
+    font-size: 12px;
+}

@@ -1,0 +1,337 @@
+/* index css */
+
+.main {
+    width: 980px;
+    height: 455px;
+    /* background-color: pink; */
+    margin-top: 10px;
+    margin-left: 219px;
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 720px;
+    height: 455px;
+    background-color: skyblue;
+}
+
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    float: left;
+    width: 24px;
+    height: 40px;
+    /* background-color: #fff; */
+    /* 半透明写法 */
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 0 3px;
+    /* background-color: #fff; */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    /* background-color: red; */
+}
+
+.news {
+    /* width: 250px; */
+    height: 163px;
+    border: 1px solid #ccc;
+    /* background-color: blue; */
+}
+
+.news-hd {
+    height: 32px;
+    /* dotted 点线 dashed虚线 */
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+
+.news-hd a {
+    float: right;
+}
+
+.news-bd {
+    font-size: 14px;
+    padding: 10px 0 0 15px;
+}
+
+.news-bd li {
+    height: 23px;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+    /* background-color: black; */
+}
+
+
+/* 4个li的宽度大于父盒子 可以让ul 这个盒子 大于父盒子 这样ul 就可以装的下li 之后让父盒子溢出隐藏就可以了 */
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeservice li a {
+    display: block;
+    /* 两个盒子一起的引发的外边距塌陷 图标上面 不在a里面 可以用overflow 解决 边框也可以解决 padding 也可以解决 */
+    overflow: hidden;
+    height: 100%;
+}
+
+.jian {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg);
+}
+
+.service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-color: pink;
+    margin: 10px auto;
+    background: url(../img/icons.png) no-repeat;
+}
+
+.service_ico_hua {
+    background-position: -17px -16px;
+}
+
+.service_ico_fei {
+    background-position: -80px -16px;
+}
+
+.service_p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+}
+
+
+/* recommand start  */
+
+.recommand {
+    height: 163px;
+    /* background-color; */
+    margin-top: 10px;
+}
+
+.reco-hd {
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.reco-hd img {
+    margin: 30px 0 10px 0;
+}
+
+.reco-bd {
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+    /* background-color: red; */
+}
+
+.reco-bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.reco-bd img {
+    margin-top: 1px;
+}
+
+.reco-bd .last {
+    border-right: 0;
+}
+
+
+/* recommand end  */
+
+
+/* floor start  */
+
+.floor .box-hd {
+    height: 30px;
+    /* background-color: pink; */
+    border-bottom: 2px solid #c81623;
+    margin-top: 25px;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    line-height: 30px;
+}
+
+.box-hd .tab-list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab-list li {
+    float: left;
+}
+
+.tab-list li a {
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.box-bd {
+    height: 360px;
+    /* background-color: pink; */
+}
+
+.box-bd img {
+    transition: all 0.3s ease;
+}
+
+.box-bd img:hover {
+    margin-top: 8px;
+    ;
+}
+
+.w209 .tab-con-list li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 14 px;
+}
+
+.w209 .tab-con-list {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.tab-con {
+    height: 361px;
+}
+
+.tab-con li {
+    float: left;
+    height: 360px;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+cc .w319 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+
+/* floor end  */
+
+
+/* fixtool start  */
+
+
+/* 电梯导航固定定位 */
+
+
+/* 游览器的百分之50 只有板心的一半 只有盒子的一半 */
+
+.fixtool {
+    position: fixed;
+    width: 66px;
+    /* background-color: red; */
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+}
+
+.fixtool li {
+    height: 33px;
+    font-size: 12px;
+    /* color: white; */
+    line-height: 33px;
+    /* margin: 8px 8px; */
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixtool li a {
+    color: grey
+}
+
+.fixtool .current {
+    background-color: #c81623;
+    color: #fff;
+}

@@ -1,0 +1,132 @@
+.header {
+    height: 82px;
+    border-bottom: 2px solid #c81623;
+    padding-top: 15px;
+}
+
+.register-area {
+    height: 520px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.register-area h3 {
+    background-color: #bcbcbc;
+    font-size: 14px;
+    height: 40px;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    padding: 0 10px;
+    font-weight: 400;
+}
+
+.register-area h3 em {
+    float: right;
+}
+
+.register-area a {
+    color: #c81623
+}
+
+.reg-form {
+    height: 400px;
+    width: 600px;
+    /* background-color: pink; */
+    margin: 40px auto;
+}
+
+.reg-form li {
+    margin-bottom: 15px;
+}
+
+.reg-form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.reg-form .inp {
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.error {
+    color: #df3303;
+    margin-left: 10px;
+}
+
+.right {
+    margin-left: 10px;
+    color: #40b834;
+}
+
+.error-icon,
+.right-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    background-color: #c81623;
+}
+
+.right-icon {
+    background-color: #40b834
+}
+
+.safe {
+    padding-left: 200px;
+    color: #b2b2b2;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: white;
+}
+
+.ruo {
+    /* display: inline-block; */
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: yellow;
+}
+
+.qiang {
+    background-color: green;
+}
+
+.agree {
+    margin-left: 110px;
+    padding-top: 20px;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.agree a {
+    color: skyblue;
+}
+
+.over {
+    width: 200px;
+    height: 34px;
+    background-color: #C81623;
+    border: none;
+    color: white;
+    margin: 30px 130px;
+    font-size: 14px;
+}
+
+.form-footer {
+    margin-top: 20px;
+    height: 120px;
+    text-align: center;
+}
